@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "bitcoin-tracing",
+  "private_key_id": "472072344e9c5a42bc63bfbbb9d6718fdc2ece33",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDBCljDMO/Qp/bG\nVl4uA7CrMaKO2UxlIf9nTMoXjrb/VEUA4Rma6XqLJSTSDtRIaQRuGeFdnNl3g8Di\n3+rD5adclf2ehCC49odQqPcbe09TrvTKlfnKNHxa8TRNt2Mdwf1r92UFtJSHsTpa\nkCJNH9VrBD3fYzxvoDb2oDq+NFPjD8Mi1RwkeFWtnASKONqMt6fq0EYuTa7X5ifn\neOWdehqCTlnXtAg7W62nknIbj5Nt4xejnttIRWWWn+kV05jS0PuiLCsbg5ZY0Wt8\nYZstdaVDxyKI0OFv00HRbsbkUdsSSJmLQJ5PxCnM87+TWMlMQ9myKSlxRifLYp17\n6LJpni1tAgMBAAECggEAC7J3+Mfn2DG9Uyew8u0tUN+j6oUB9eTZUuXvyaf6WxQS\nTwB/f91i8WMxonrcjntdQIYCm8dhKWFLQv7E0n8BelY/tScWIS8VuaOraY0PcaeE\nf3FsCT557zwgv7l7i4uRiBpzEs/uP3SpRQs+e4Q7dzhyvq0G4KVe1JNBS/zkEmTr\nUkBV6DusP5QydQ3OnecfJm9QPsdwrZ+k3zWQW1pLBtiZXdKc1/EvdtJh2hvNvQLr\nw8qtW9SL4EYSPgoY/PfvnKnZAIysFzjoI5x/I9PFPMEnMz5y5+4LRmgdgZzsAScy\nK+PnSRnTwmHj+f61pLuE/Yi+Z4rSEiSYaawix1AeIQKBgQDnDpdiQ8bn1wmjkvCU\n6Bso1fwRDs+KxsptLk/ksLkzdFaz8EAp7GwEkmvoo2HOvZ7utzCcfddQrWCOHy/u\n6ZmlguPoAn/N8mDT59w3OKL3KkJRcPVF5J5RSxKmhZqjl8Qk6rHd64g01XcBTeAP\nfOz1LYcvsjnJRmHf9MQ8HJEKPQKBgQDV4SSK22bduM2plzlAYugLrNmJJZKcdhUL\n/Y+zzFbw7h/cPfyvGF1tqs3wyRJptWREVu4XLT0uwyb51Fq7G6onUH4v1xPhE1AR\nX8/7O+wr9GIrgDSwKKd9puZuJ0UbTXyUqRrobH/55UFvIHp1GuRr1jVbRg4aO3hf\nWWbPZ7xS8QKBgANMygy1OxoEkDat2pHF3t1ucPMtavlobWuxxaJWg86gUryvKbtv\njPtju/bOno79Vk/Cfgc+JN0aHM7q0xxuaatbezXNE1Y1p/xey15eiLVO/TN8kYQ2\nB6zRjaqjLdo4SKzeTTwGKSPYCKMUIacW+atmww+DVB/zyWIRdNwG7GthAoGBAK77\nXhxE2Gn6MjjXwj1NLi+vIOK13LcpXJrMvm8JdO/0whg8lqjiND3vCkI/H1Ng1kGb\nJXvMxUum2hJ3jCucvJ8hmbumKVtxo4Yzb0NKiTSE4nRYlcKx4CZLECd69W0a/hva\nJmuVqTZYPCqg1c9NSyh2vnyIWi1YDmlkCVsSsd7hAoGAUqPD4FuMGJxsLdWQFyeO\nWPcI/yB4aeL3hOXr6zVK3OpDilYQ4M3Pylj5qSfvxHnpTMibeYK45IQBrQ6c7sjx\nsg4J0qgoEwR0IsgQNk3Lv7YDD0dZhxjvF61I2fTMA7a/ocYhH4J/jgyPOLJ20AQz\n4WB1Kh752UHrBxPShOqCiEA=\n-----END PRIVATE KEY-----\n",
+  "client_email": "bitcoin-tracing@bitcoin-tracing.iam.gserviceaccount.com",
+  "client_id": "103064778704692654906",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bitcoin-tracing%40bitcoin-tracing.iam.gserviceaccount.com"
+}
