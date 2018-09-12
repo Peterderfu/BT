@@ -4,7 +4,7 @@ from google.cloud.bigquery.client import Client
 SERVICE_ACCOUNT_JSON = "file/Bitcoin-Tracing-472072344e9c.json"
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = SERVICE_ACCOUNT_JSON
 client = Client()
-query = """
+query = """ 
 #standardSQL
 SELECT
   o.day,
