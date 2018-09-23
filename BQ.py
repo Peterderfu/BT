@@ -1,3 +1,4 @@
+#https://www.kaggle.com/bigquery/bitcoin-blockchain
 import os
 import pandas as pd
 from google.cloud.bigquery.client import Client
@@ -50,13 +51,12 @@ def list_field(dataset):
 
 if __name__ == "__main__":
 #     list_field(['bigquery-public-data', 'bitcoin_blockchain'])
-    
+#     exit
     date_str = "2009-12-31"
     dt = datetime.strptime(date_str, "%Y-%m-%d")
     timestamp = int(dt.replace(tzinfo=timezone.utc).timestamp())*1000
     
     query = """
-    #standardSQL
     SELECT
         timestamp,outputs
     FROM
@@ -66,19 +66,13 @@ if __name__ == "__main__":
     ORDER BY
        timestamp
     """
-    
-    
-         
-#     print(query)
-#     exit
+    print("Performing query : ")
+    print(query)
     query_job = client.query(query)
  
     iterator = query_job.result(timeout=3000)
     rows = list(iterator)
-#     print(rows)
-    # Transform the rows into a nice pandas dataframe
     transactions = pd.DataFrame(data=[list(x.values()) for x in rows], columns=list(rows[0].keys()))
- 
-    # Look at the first 10 headlines
     transactions.head(10)
+    assert(1==1)
     
