@@ -1,0 +1,31 @@
+query = """
+#standardSQL
+SELECT
+  o.day,
+  COUNT(DISTINCT(o.output_key)) AS recipients
+FROM (
+  SELECT
+    TIMESTAMP_MILLIS((timestamp - MOD(timestamp,
+          86400000))) AS day,
+    output.output_pubkey_base58 AS output_key
+  FROM
+    `bigquery-public-data.bitcoin_blockchain.transactions`,
+    UNNEST(outputs) AS output ) AS o
+GROUP BY
+  day
+ORDER BY
+  day
+"""
+
+query = """
+    SELECT
+        timestamp,o.output_pubkey_base58
+    FROM
+        `bigquery-public-data.bitcoin_blockchain.transactions`,UNNEST(outputs) AS o
+    WHERE
+        timestamp > """ + str(timestamp_start) + """ AND timestamp < """ + str(timestamp_stop) + """
+    ORDER BY
+       timestamp
+    """
+    
+    
